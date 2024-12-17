@@ -1,0 +1,17 @@
+{
+  "name": "techy-we",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sql": "ssh -N -L 3306:127.0.0.1:3306 mbustillo@192.168.16.36",
+    "sql-obmiscs-tp-new": "ssh -i ~/.ssh/id_rsaMCortez -N -L 3306:127.0.0.1:3306 mcortez@192.168.16.10",
+    "ssh-ola": "ssh mbustillo@192.168.16.36 -i ~/.ssh/id_rsa",
+    "sql-obmiscs-tp-old": "ssh -N -L 3306:127.0.0.1:3306 mbustillo@192.168.16.11",
+    "ssh-obofficetp-old": "ssh mbustillo@192.168.16.11 -i ~/.ssh/id_rsa",
+    "ssh-oboffice-tp-new": "ssh mbustillo@192.168.16.10 -i ~/.ssh/id_rsa",
+    "ssh-oboffice-tp-new-mcortez": "ssh mcortez@192.168.16.10 -i ~/.ssh/id_rsaMCortez"
+  },
+  "author": "",
+  "license": "ISC"
+}
