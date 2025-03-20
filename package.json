@@ -10,7 +10,8 @@
     "sql-obmiscs-tp-old": "ssh -N -L 3306:127.0.0.1:3306 mbustillo@192.168.16.11",
     "ssh-obofficetp-old": "ssh mbustillo@192.168.16.11 -i ~/.ssh/id_rsa",
     "ssh-oboffice-tp-new": "ssh mbustillo@192.168.16.10 -i ~/.ssh/id_rsa",
-    "ssh-oboffice-tp-new-mcortez": "ssh mcortez@192.168.16.10 -i ~/.ssh/id_rsaMCortez"
+    "ssh-oboffice-tp-new-mcortez": "ssh mcortez@192.168.16.10 -i ~/.ssh/id_rsaMCortez",
+    "test1": "this is a test"
   },
   "author": "",
   "license": "ISC"
